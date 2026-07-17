@@ -19,7 +19,7 @@ const TEAM_NAMES = [
   "Ironclads","Riverhawks","Dustdevils","Stormcrows","Copperheads",
   "Timberwolves","Fireflies","Mudcats","Greyhounds","Thunderbolts",
   "Rattlers","Pelicans","Zephyrs","Jackrabbits","Nighthawks",
-  "Ospreys","Crosscutters","Snappers","Kernels","Sultans",
+  "Ospreys","Trash Pandas","Snappers","Kernels","Sultans",
   "Hillcats","Crawdads","Baysox","Yard Goats","Shuckers",
   "Rockhounds","Isotopes","Biscuits","Lookouts","Sounds",
 ];
