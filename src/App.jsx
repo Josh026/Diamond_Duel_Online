@@ -16,10 +16,10 @@ const TEAM_PALETTE = [
 
 // ─── TEAM NAMES ──────────────────────────────────────────────────────────────
 const TEAM_NAMES = [
-  "Ironclads","Riverhawks","Dustdevils","Stormcrows","Copperheads",
-  "Timberwolves","Fireflies","Mudcats","Greyhounds","Thunderbolts",
+  "RubberDucks","Riverhawks","Dustdevils","Stormcrows","Copperheads",
+  "SeaWolves","JumboShrimp","Mudhens","RumblePonies","Thunderbolts",
   "Rattlers","Pelicans","Zephyrs","Jackrabbits","Nighthawks",
-  "Ospreys","Trash Pandas","Snappers","Kernels","Sultans",
+  "CannonBallers","TrashPandas","Snappers","Kernels","Nuts",
   "Hillcats","Crawdads","Baysox","Yard Goats","Shuckers",
   "Rockhounds","Isotopes","Biscuits","Lookouts","Sounds",
 ];
