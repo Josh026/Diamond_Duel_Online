@@ -16,10 +16,10 @@ const TEAM_PALETTE = [
 
 // ─── TEAM NAMES ──────────────────────────────────────────────────────────────
 const TEAM_NAMES = [
-  "Ironclads","Riverhawks","Dustdevils","Stormcrows","Copperheads",
-  "Timberwolves","Fireflies","Mudcats","Greyhounds","Thunderbolts",
-  "Rattlers","Pelicans","Zephyrs","Jackrabbits","Nighthawks",
-  "Ospreys","Crosscutters","Snappers","Kernels","Sultans",
+  "RubberDucks","Riverhawks","Dustdevils","Stormcrows","Copperheads",
+  "Timberwolves","Fireflies","Mudcats","JumboShrimp","Thunderbolts",
+  "Rattlers","Pelicans","Zephyrs","YardGoats","Nighthawks",
+  "Ospreys","TrashPandas","RumblePonies","Kernels","Nuts",
   "Hillcats","Crawdads","Baysox","Yard Goats","Shuckers",
   "Rockhounds","Isotopes","Biscuits","Lookouts","Sounds",
 ];
@@ -2642,7 +2642,7 @@ function BaseballGame(){
         </div>
         <div style={{display:"flex",flexDirection:"column",gap:12}}>
           <button style={btn("#E63946")} onClick={()=>startGame("vs-ai")}>🤖  Play vs AI</button>
-          <button style={btn("#3b82f6")} onClick={()=>startGame("two-player")}>👥  2 Players (Pass & Play)</button>
+          
           <button style={btn("#22c55e")} onClick={()=>{
             setOnlineState("idle");setRoomCode("");setRoomInput("");setOnlineError("");
             setG(prev=>({...prev,phase:"online_lobby",mode:"online"}));
