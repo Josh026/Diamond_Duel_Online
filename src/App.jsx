@@ -2641,9 +2641,9 @@ function BaseballGame(){
           </div>
         </div>
         <div style={{display:"flex",flexDirection:"column",gap:12}}>
-          <button style={btn("#E63946")} onClick={()=>startGame("vs-ai")}>🤖  Play vs AI</button>
+          <button style={btn("#45bf47")} onClick={()=>startGame("vs-ai")}>🤖  Play vs AI</button>
           
-          <button style={btn("#22c55e")} onClick={()=>{
+          <button style={btn("#2284c5")} onClick={()=>{
             setOnlineState("idle");setRoomCode("");setRoomInput("");setOnlineError("");
             setG(prev=>({...prev,phase:"online_lobby",mode:"online"}));
           }}>🌐  Play Online</button>
